@@ -13,4 +13,17 @@ export default defineConfig({
     },
   },
   base: "/caibao/",
+  build: {
+    outDir: "dist",
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes("node_modules")) {
+            // 将外部依赖单独打包
+            return 'vendor';
+          }
+        },
+      }
+    }
+  }
 });
