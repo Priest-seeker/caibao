@@ -12,5 +12,10 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+<<<<<<< HEAD
   publicPath: "/caibao/",
 });
+=======
+  base:'/blog/',
+})
+>>>>>>> 0c95c1ec16490bc83af74336bc9ab58b7a2037f1
