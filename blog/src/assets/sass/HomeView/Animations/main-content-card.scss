@@ -1,0 +1,43 @@
+
+#Cai,#Bao{
+  font-size: 17em;
+  font-weight: bold;
+}
+
+.Cai{
+  animation-name:Cai;
+  animation-timing-function: cubic-bezier(1, 1, 1, 1);
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes Cai{
+  0%{
+    margin-left: 0vw;
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.Bao{
+  animation-name:Bao;
+  animation-timing-function: cubic-bezier(1, 1, 1, 1);
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes Bao{
+  0%{
+    margin-left: 100vw;
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}

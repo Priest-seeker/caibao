@@ -1,0 +1,22 @@
+.room-card:deep(.el-card__header) {
+  padding: 0 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.room-card:deep(.el-card__body) {
+  padding: 3px 0 0 0;
+}
+
+.room-card:deep(.el-card__footer) {
+  padding: 0;
+}
+
+.main-content-card:deep(.el-card__body) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}/*# sourceMappingURL=deep.css.map */

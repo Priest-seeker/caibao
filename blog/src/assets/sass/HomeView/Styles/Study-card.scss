@@ -1,0 +1,39 @@
+.room-section{
+  display: flex;
+  justify-content: center;
+}
+
+.room-card{
+  border-width: 0 0 1px 0;
+  width:90vw;
+  margin-bottom:3vh;
+}
+
+.room{
+  width: 96%;
+  margin-left: 2%;
+}
+
+
+.room-item{
+  margin-bottom: 10px;
+}
+.el-collapse-item{
+  padding-left: 10px;
+}
+.room-item:hover{
+  box-shadow:1px 1px 5px 3px rgba(0, 0, 0, 0.2);  
+}
+.header-icon{
+  width:50px;
+}
+.room-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.room-content .content{
+  font-size: 1.01em;
+  width: 70%;
+}
