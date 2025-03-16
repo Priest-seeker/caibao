@@ -4,7 +4,7 @@ import AboutView from "../views/AboutView.vue";
 import RoomsView from "../views/RoomsView.vue";
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     { path: "/", redirect: "/Home" },
     { path: "/Home", name: "Home", component: HomeView },
